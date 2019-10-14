@@ -8,6 +8,12 @@
 
 ## Linux [Linux](https://wikipedia.org/wiki/Linux) [![alt tag](http://icons.iconarchive.com/icons/dakirby309/simply-styled/32/OS-Linux-icon.png)](https://fr.wikipedia.org/wiki/Linux)
 
+- ### open your terminal
+- ### enter this command
+```bash
+$ apt install git python2 python2-pip && git clone https://github.com/knassar702/hackerman && cd hackerman && pip2 install -r requirements.txt && python2 setup.py install && echo 'from hackerman import slow_print;slow_print('Welcome in Hackerman module .. Good luck :) ..',1)' > first.py && python2 first.py
+```
+
 ## Andoird <img src="https://img.icons8.com/clouds/100/000000/android-os.png">
 
 - ### Download Termux App
