@@ -36,7 +36,7 @@
 
 
 # Examples :
-- Xss Scanner Script 
+- xss Scanner Script 
 ```python
 from hackerman import xss
 import sys
@@ -66,7 +66,43 @@ xss(target)
      <img src="https://i.ibb.co/SnrP8SL/Screenshot-from-2019-10-15-00-58-45.png" alt="XSS Tool">
      
      ### Note : Add * in param
- 
+     For More scan 
+     ```python
+     from hackerman import sqli , ssti
+     sqli(target) , ssti(target)```
+
+- Port Scanner Script
+```python
+from hackerman import portscanner
+import sys
+def logo():
+        print ('''
+
+ _ __  ___  ___ __ _ _ __  
+| '_ \/ __|/ __/ _` | '_ \ 
+| |_) \__ \ (_| (_| | | | |
+| .__/|___/\___\__,_|_| |_|
+|_|
+
+[ Coded By : Hacker ]
+[ Version  : 0.1    ]
+
+''')
+
+def getarg():
+        global ip,port1,port2
+        ip=sys.argv[1]
+        port1=sys.argv[2]
+        port2=sys.argv[3]
+
+logo()
+getarg()
+portscanner(ip,port1,port2)
+```
+-     ## Run it 
+     ```python2 pscan.py 127.0.0.1 80 3306 ```
+      ## The Result 
+      <img src="https://i.ibb.co/dDjJrYY/Screenshot-from-2019-10-15-01-12-46.png" alt="Port Scanner Tool" >
 # Installation :
 
 ## [Linux](https://wikipedia.org/wiki/Linux) [![alt tag](http://icons.iconarchive.com/icons/dakirby309/simply-styled/32/OS-Linux-icon.png)](https://fr.wikipedia.org/wiki/Linux)
