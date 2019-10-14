@@ -13,5 +13,5 @@
 - ### Download Termux App
 - ### Enter this command
 ```bash
-$ pkg update && pkg install python2 && pkg install git && pip2 install -r requirements.txt && python2 setup.py install && echo "from hackerman import slow_print;slow_print('Welcome in Hackerman module .. Good luck :) ..',1)" > first.py
+$ pkg update && pkg install python2 && pkg install git && pip2 install -r requirements.txt && python2 setup.py install && echo "from hackerman import slow_print;slow_print('Welcome in Hackerman module .. Good luck :) ..',1)" > first.py && python2 first.py
 ```
