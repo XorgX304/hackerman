@@ -12,7 +12,7 @@
 | `porscanner`      | Make Portscanner script       |
 | `whoup`           | Show whoup in Network         |
 | `xss`             | Xss Reflacted Scanner         |
-| `sqli`            | SQL INJECTION SCANNE          |
+| `sqli`            | SQL INJECTION Scanner          |
 | `ssti`            | SSTI Scanner                  |
 | `headers`         | Get HTTP Headers              |
 | `make_payload`    | Make Rat Payload              |
