@@ -21,3 +21,7 @@ $ apt install git python2 python2-pip && git clone https://github.com/knassar702
 ```bash
 $ pkg update && pkg install python2 && pkg install git && pip2 install -r requirements.txt && python2 setup.py install && echo "from hackerman import slow_print;slow_print('Welcome in Hackerman module .. Good luck :) ..',1)" > first.py && python2 first.py
 ```
+
+# License
+
+GPL-2.0 Licence
