@@ -25,9 +25,9 @@
 
 # > Rat Features <img src="https://img.icons8.com/cotton/64/000000/hacking.png" width="40" height="35">
 
-- ### Upload And Download Files <img src="https://img.icons8.com/ultraviolet/40/000000/compare.png" width="50" height="50">
-- ### Execute os Command <img src="https://img.icons8.com/ios-filled/50/000000/laptop-application.png" width="50" height="50">
-- ### Get Victim Address <img src="https://img.icons8.com/bubbles/50/000000/address.png" width="50" height="50">
+- ### Upload And Download Files <img src="https://img.icons8.com/ultraviolet/40/000000/compare.png" width="40" height="50">
+- ### Execute os Command
+- ### Get Victim Address
 - ### openfile in victim device
 - ### open url in Victim Browser
 - ### print message in Victim terminal
