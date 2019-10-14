@@ -16,7 +16,7 @@ def xss(url):
 	payload='''"><img src="x" onerror="alert('Knassar702')">'''
 	req=requests.get(url.replace('*',payload),timeout=5)
 	if payload in req.content:
-		print ('[+] VUNRABLE\n[!] NAME : XSS REF\n[!] PAYLOAD : {}\n[*] URL : {}'.format(payload,req.url))
+		print ('[+] Vulnerable\n[!] NAME : XSS REF\n[!] PAYLOAD : {}\n[*] URL : {}'.format(payload,req.url))
 	else:
 		pass
 def ssti(url):
@@ -26,7 +26,7 @@ def ssti(url):
 	payload='{{8892*222}}'
 	req=requests.get(url.replace('*',payload))
 	if '1974024' in req.content:
-		print ('[+] VUNRABLE\n[!] NAME : SSTI\n[!] PAYLOAD : {}\n[*] URL : {}'.format(payload,req.url))
+		print ('[+] Vulnerable\n[!] NAME : SSTI\n[!] PAYLOAD : {}\n[*] URL : {}'.format(payload,req.url))
 def sqli(url):
         if '*' not in url:
                 print ('[#] ADD * in param for start ..')
@@ -62,7 +62,7 @@ def sqli(url):
 	req=requests.get(url.replace('*',payload),timeout=5)
 	for t,m in errors.items():
 		if re.search(m, req.content):
-			print ('[+] VUNRABLE\n[!] NAME : SQL INJECTION\n[!] ERROR : {}\n[!] DATABASE : {}\n[*] URL : {}'.format(m,t,req.url))
+			print ('[+] Vulnerable\n[!] NAME : SQL INJECTION\n[!] ERROR : {}\n[!] DATABASE : {}\n[*] URL : {}'.format(m,t,req.url))
 			break
 		else:
 			continue
