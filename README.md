@@ -23,6 +23,17 @@
 | `scapy_dos_attack`| Make Dos Attack Script with scapy         |
 
 
+# Rat Features <img src="https://img.icons8.com/cotton/64/000000/hacking.png"> :
+
+- ### Upload And Download Files <img src="https://img.icons8.com/ultraviolet/40/000000/compare.png">
+- ### Execute os Command <img src="https://img.icons8.com/ios-filled/50/000000/laptop-application.png">
+- ### Get Victim Address <img src="https://img.icons8.com/bubbles/50/000000/address.png">
+- ### openfile in victim device
+- ### open url in Victim Browser
+- ### print message in Victim terminal <img src="https://img.icons8.com/dotty/80/000000/computer-chat.png">
+- ### see who is up on the victim network
+- ### Take screenshot from victim device
+
 # Installation :
 
 ## [Linux](https://wikipedia.org/wiki/Linux) [![alt tag](http://icons.iconarchive.com/icons/dakirby309/simply-styled/32/OS-Linux-icon.png)](https://fr.wikipedia.org/wiki/Linux)
