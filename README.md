@@ -63,7 +63,7 @@ xss(target)
   - ## Run it 
      ```python2 main.py 'http://leettime.net/xsslab1/chalg1.php?name=5*&submit=Search' ```
   - ## The Result 
-     <img src="https://i.ibb.co/9y6gY3z/Screenshot-from-2019-10-15-00-54-13.png" alt="XSS Tool">
+     <img src="https://i.ibb.co/SnrP8SL/Screenshot-from-2019-10-15-00-58-45.png" alt="XSS Tool">
      
      ### Note : Add * in param
  
