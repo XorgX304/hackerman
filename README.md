@@ -16,7 +16,7 @@
 | `ssti`            | SSTI Scanner                  |
 | `headers`         | Get HTTP Headers              |
 | `make_payload`    | Make Rat Payload              |
-| `make_connection` | Make Connection With Victim   |
+| `make_connection` | Make Connection With Rat Victim   |
 | `restart`         | restart your script           |
 | `slow_print`      | print the words slow mode     |
 | `dos_attack`      | Make Dos Attack Script        |
