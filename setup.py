@@ -6,7 +6,7 @@ setup(
     python_requires='>=2.7',
     install_requires=['python-nmap', 'requests','scapy'],
     packages=find_packages()+['.'],
-    license='GPL-2.0'
+    license='GPL-2.0',
     include_package_data=True,
     url='https://github.com/knassar702/hackerman',
     author='Khaled Nassar',
