@@ -39,7 +39,33 @@
 - Xss Scanner Script 
 ```python
 from hackerman import xss
+import sys
+def logo():
+        print ('''
+__  __       _____          ___
+\ \/ /___ __|_   _|__   ___ | |
+ \  // __/ __|| |/ _ \ / _ \| |
+ /  \\__ \__ \| | (_) | (_) | |
+/_/\_\___/___/|_|\___/ \___/|_|
+
+[ Coded By : hacker ]
+[ version  : 0.1    ]
+''')
+
+def getarg():
+        global target
+        target=sys.argv[1]
+
+logo()
+getarg()
+xss(target)
 ```
+  - Run it ```bash
+  ``` python2 xsstool.py
+  ```
+  - The Result 
+     <img src="https://i.ibb.co/TYrF3Tj/Screenshot-from-2019-10-15-00-43-13.png" alt="Xss Tool">
+ 
 # Installation :
 
 ## [Linux](https://wikipedia.org/wiki/Linux) [![alt tag](http://icons.iconarchive.com/icons/dakirby309/simply-styled/32/OS-Linux-icon.png)](https://fr.wikipedia.org/wiki/Linux)
