@@ -18,9 +18,9 @@
 | `make_payload`    | Make Rat Payload              |
 | `make_connection` | Make Connection With Rat Victim   |
 | `restart`         | restart your script           |
-| `slow_print`      | print the words slow mode     |
+| `slow_print`      | print the words in slow mode     |
 | `dos_attack`      | Make Dos Attack Script        |
-| `scapy_dos_attack`| Dos Attack with scapy         |
+| `scapy_dos_attack`| Make Dos Attack Script with scapy         |
 
 
 # Installation :
