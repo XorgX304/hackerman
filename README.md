@@ -25,7 +25,7 @@
 
 # > Rat Features <img src="https://img.icons8.com/cotton/64/000000/hacking.png" width="40" height="35">
 
-- ### Upload And Download Files <img src="https://img.icons8.com/ultraviolet/40/000000/compare.png" width="40" height="50">
+- ### Upload And Download Files
 - ### Execute os Command
 - ### Get Victim Address
 - ### openfile in victim device
