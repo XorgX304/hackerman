@@ -6,7 +6,7 @@
 
 
 # The Features :
-|>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>|
+
 | Name              | Description                   |
 | :-------------    | :-------------                |
 | `porscanner`      | Make Portscanner script       |
@@ -21,7 +21,7 @@
 | `slow_print`      | print the words slow mode     |
 | `dos_attack`      | Make Dos Attack Script        |
 | `scapy_dos_attack`| Dos Attack with scapy         |
-|>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>|
+
 
 # Installation :
 
