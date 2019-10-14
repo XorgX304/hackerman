@@ -64,7 +64,7 @@ xss(target)
   ``` python2 xsstool.py
   ```
   - The Result 
-     <img src="https://i.ibb.co/TYrF3Tj/Screenshot-from-2019-10-15-00-43-13.png" alt="Xss Tool">
+     <img src="https://i.ibb.co/wBYxmLG/Screenshot-from-2019-10-15-00-43-13.png" alt="XSS Tool">
  
 # Installation :
 
