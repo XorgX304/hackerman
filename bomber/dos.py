@@ -1,4 +1,7 @@
 #!/usr/bin/env python2
+# Coded By : Khaled Nassar @knassar702
+# Facebook & GITHUB : knassar702
+# GPL-2.0
 import socket,threading,time,sys,random,requests
 from queue import Queue
 q = Queue()
