@@ -1,6 +1,6 @@
-#!/usr/bin/env python2
 # Coded By : Khaled Nassar @knassar702
-# FB & GITHUB : knassar702
+# Facebook & GITHUB : knassar702
+# GPL-2.0
 # NOTE ADD * in param (EX : http://target.com/?search=*) .. GOOD LUCK ^_^
 import requests,sys,re
 
