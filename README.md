@@ -60,10 +60,8 @@ logo()
 getarg()
 xss(target)
 ```
-  - Run it ```bash
-  ``` python2 xsstool.py
-  ```
-  - The Result 
+  - ## Run it ```python2 xsstool.py```
+  - ## The Result 
      <img src="https://i.ibb.co/wBYxmLG/Screenshot-from-2019-10-15-00-43-13.png" alt="XSS Tool">
  
 # Installation :
