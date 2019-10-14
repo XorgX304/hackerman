@@ -30,7 +30,7 @@
 - ### Get Victim Address <img src="https://img.icons8.com/bubbles/50/000000/address.png">
 - ### openfile in victim device
 - ### open url in Victim Browser
-- ### print message in Victim terminal <img src="https://img.icons8.com/dotty/80/000000/computer-chat.png" width="50"height="55">
+-### print message in Victim terminal<img src="https://img.icons8.com/dotty/80/000000/computer-chat.png" width="50" height="55">
 - ### see who is up on the victim network
 - ### Take screenshot from victim device
 
