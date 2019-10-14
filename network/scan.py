@@ -1,6 +1,7 @@
 #!/usr/bin/env python2
 # Coded By : Khaled Nassar @knassar702
-# FB & GITHUB : knassar702
+# Facebook & GITHUB : knassar702
+# GPL-2.0
 # EX : whoup('192.168.1.1/24') .. For show who up in network
 # EX : portscanner('127.0.0.1',80,443) .. For port start scan
 import nmap
