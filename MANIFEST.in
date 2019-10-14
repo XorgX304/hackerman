@@ -1,0 +1,10 @@
+include README.md
+include MANIFEST.in
+include setup.py
+include web/go.py
+include network/scan.py
+include network/sniff.py
+include requirements.txt
+include hackerman.py
+include rat/pyshell.py
+include script/main.py

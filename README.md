@@ -1,0 +1,3 @@
+# Hackerman .. 
+
+## python hacking module
