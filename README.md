@@ -100,12 +100,12 @@ getarg()
 portscanner(ip,port1,port2)
 ```
 
-- Run it 
+- ## Run it 
      ````python2 pscan.py 127.0.0.1 80 3306 ````
      
-- The Result 
-
+- ## The Result 
       <img src="https://i.ibb.co/dDjJrYY/Screenshot-from-2019-10-15-01-12-46.png" alt="Port Scanner Tool" >
+      
 # Installation :
 
 ## [Linux](https://wikipedia.org/wiki/Linux) [![alt tag](http://icons.iconarchive.com/icons/dakirby309/simply-styled/32/OS-Linux-icon.png)](https://fr.wikipedia.org/wiki/Linux)
