@@ -1,4 +1,10 @@
 from setuptools import setup, find_packages
+from os.path import abspath, join, split
+import os
+# Make sure we are standing in the correct directory.
+# Old versions of distutils didn't take care of this.
+here = split(abspath(__file__))[0]
+os.chdir(here)
 
 setup(
     name='hackerman',
@@ -22,4 +28,9 @@ setup(
         'Topic :: Security',
     ],
     keywords='hacking',
+    entry_points={
+        'console_scripts': [
+            'hackerman = hackerman:interactive',
+        ],
+    },
 )

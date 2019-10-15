@@ -1,9 +1,9 @@
 include README.md
+include hackerman.py
 include MANIFEST.in
 include setup.py
-include web/go.py
+include web/run.py
 include network/scan.py
-include network/sniff.py
 include requirements.txt
 include hackerman.py
 include rat/pyshell.py
