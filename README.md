@@ -9,7 +9,7 @@
 
 | Name              | Description                   |
 | :-------------    | :-------------                |
-| `porscanner`      | Make Portscanner script       |
+| `portscanner`      | Make Portscanner script       |
 | `whoup`           | Show whoup in Network         |
 | `xss`             | Xss Reflacted Scanner         |
 | `sqli`            | SQL INJECTION Scanner          |
