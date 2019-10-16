@@ -109,7 +109,7 @@ portscanner(ip,port1,port2)
   
   
 # More Examples :
-- ## <a href='https://github/knassar702/hackerman-tools' target='_blank'> Hackerman-Scripts</a>
+- ## <a href='https://github/knassar702/hackerman-scripts' target='_blank'> Hackerman-Scripts</a>
       
 # Installation :
 
