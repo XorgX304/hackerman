@@ -140,6 +140,8 @@ Latitude : %s
 
                         s.sendall(''+results)
 except:
+        s.close()
+        sleep(1.5)
         re()
 
 """)
