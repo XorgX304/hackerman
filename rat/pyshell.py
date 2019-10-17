@@ -93,9 +93,10 @@ try:
                                         s.send(l)
                                         l = f.read(1000000)
                                     f.close()
+				    s.send('Done ..')
                                     break
                         except:
-                                pass
+                                s.send('ERROR ..')
                 elif cmd == 'upload':
                         s.send('ok')
                         if s.recv(1024) == 'name':
